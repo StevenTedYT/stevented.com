@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="preload"
+      href="assets/font/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <title>StevenTed's Tracks</title>
+  </head>
+  <body>
+    <div class="background"><img src="assets/img/bg.jpg" alt="" /></div>
+    <div class="searchContainer color">
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="Search something..."
+      />
+      <input
+        type="image"
+        id="submit"
+        src="assets/img/searchsvg.svg"
+        width="38"
+        height="38"
+      />
+    </div>
+    <div class="nav">
+      <div class="navItem color" style="background-color: rgba(22, 24, 34, 1)">
+        <h1>Tracks</h1>
+        <p>Download WAV format (like lossless) or just stream it</p>
+      </div>
+      <div class="navItem blocked">
+        <h1>Remixes, Edits & Mashups</h1>
+        <p>Download in 320kbps in .mp3 format</p>
+      </div>
+      <div class="navItem blocked">
+        <h1>DJ Set</h1>
+        <p>Download in 320kbps in .mp3 format</p>
+      </div>
+    </div>
+    <section>
+      <div class="tableContainer">
+        <div class="trackItem">
+          <div class="track">
+            <img
+              id="cover"
+              src="/assets/cover/iwannadance.jpg"
+              alt=""
+              width="98"
+              height="98"
+            />
+            <div>
+              <h1 id="title">I Wanna Dance</h1>
+              <p id="artist">StevenTed</p>
+            </div>
+          </div>
+          <div class="date">
+            <p id="releaseDate">5 January 2024</p>
+          </div>
+          <div class="download">
+            <a id="downloadLink" href="assets/tracks/iwannadance.wav"
+              >Download</a
+            >
+          </div>
+          <div class="stream">
+            <a id="streamLink" href="#">Stream</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
